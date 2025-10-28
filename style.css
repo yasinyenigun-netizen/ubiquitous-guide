@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  flex-wrap:wrap;
+  border-color:red;
+  color:red;
+ 
+}
+ol {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  flex-direction:column;
+  gap:15px
+}
+
+.content-body {
+  width: 70%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  border-color:red;
+  color:red;
+}
+body {
+  background-image:url('https://codehs.com/uploads/ab600ceec771ed5a759d6d8918079c43' );
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+img {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100px;
+  height: 150px;
+}
+.logo {
+  
+  justify-content:flex-start;
+  align-self: flex-start;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+.logo:hover {
+  animation:invert-filter 2s forwards;
+}
+
+iframe {
+  width: 1000px;
+  height: 500px;
+}
+
+p {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  border-color:red;
+  color:red;
+  
+}
+
+h1 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color:red;
+  font-size: 30px;
+  border-color:red;
+}
+.navBar{
+  background-color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding:5px;
+  border-radius:5px;
+}
+ a{
+  background-color: white;
+  color: black;
+  padding:5px;
+  border-radius: 5px;
+  border-color:red;
+  border-style:solid;
+  color:red;
+  text-decoration: none;
+  
+}
+a:hover{
+  background-color: lightgrey;
+  
+
+}
+nav a:active{
+  background-color: grey;
+
+
+}
+a {
+  background-color: white;
+  color: black;
+  padding:5px;
+  border-radius: 5px;
+  border-color:red;
+  border-style:solid;
+  color:red;
+  text-decoration: none;
+}
+.Dontcontact {
+  background-color: white;
+  color: black;
+  padding:5px;
+  border-radius: 5px;
+  border-color:red;
+  border-style:solid;
+  color:red;
+  text-decoration: none;
+  
+}
+.Dontcontact {
+  display: one;
+  
+
+}
+@keyframes invert-filter {
+    from {
+        filter: invert(0%);
+    }
+
+    to {
+        filter: invert(100%);
+    }
+}
