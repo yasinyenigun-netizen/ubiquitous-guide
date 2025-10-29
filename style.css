@@ -43,16 +43,16 @@ img {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
-  width: 100px;
-  height: 150px;
+  max-width:  100%;
+  height: auto;
 }
 .logo {
   
   justify-content:flex-start;
   align-self: flex-start;
   margin-right: auto;
-  width: 150px;
-  height: 150px;
+  max-width: 100%;
+  height: auto;
 }
 .logo:hover {
   animation:invert-filter 2s forwards;
@@ -88,13 +88,24 @@ h1 {
 }
 .navBar{
   background-color: white;
-  
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
   padding:5px;
   border-radius:5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.navBar a[aria-current="page"] {
+  background-color: lightcoral;
+  color: white;
+  font-weight: 600;
+  outline: 2px solid darkred;
 }
  a{
   background-color: white;
@@ -127,22 +138,8 @@ a {
   color:red;
   text-decoration: none;
 }
-.Dontcontact {
-  background-color: white;
-  color: black;
-  padding:5px;
-  border-radius: 5px;
-  border-color:red;
-  border-style:solid;
-  color:red;
-  text-decoration: none;
-  
-}
-.Dontcontact {
-  display: one;
-  
 
-}
+
 @keyframes invert-filter {
     from {
         filter: invert(0%);
