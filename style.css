@@ -129,16 +129,6 @@ nav a:active{
 
 
 }
-a {
-  background-color: white;
-  color: black;
-  padding:5px;
-  border-radius: 5px;
-  border-color:red;
-  border-style:solid;
-  color:red;
-  text-decoration: none;
-}
 
 
 @keyframes invert-filter {
