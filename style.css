@@ -52,7 +52,7 @@ img {
   align-self: flex-start;
   margin-right: auto;
   width: 150px;
-  height: 100px;
+  height: auto;
 }
 .logo:hover {
   animation:invert-filter 2s forwards;
