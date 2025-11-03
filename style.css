@@ -51,8 +51,8 @@ img {
   justify-content:flex-start;
   align-self: flex-start;
   margin-right: auto;
-  width: 5%;
-  height: 10%;
+  width: 0.2%;
+  height: 0.5%;
 }
 .logo:hover {
   animation:invert-filter 2s forwards;
