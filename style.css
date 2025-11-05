@@ -30,7 +30,7 @@ body {
   background-size:cover;
   background-position: center center;
   background-repeat: no-repeat;
-  blackground-attachment: fixed;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
