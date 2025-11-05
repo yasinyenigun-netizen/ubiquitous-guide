@@ -28,8 +28,9 @@ ol {
 body {
   background-image:url('https://codehs.com/uploads/ab600ceec771ed5a759d6d8918079c43' );
   background-size:cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  blackground-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
