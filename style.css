@@ -52,7 +52,7 @@ img {
   position: fixed;
   top: 5px;
   left: 10px;
-  width: 80px;
+  width: 100px;
   height: auto;
   
 }
@@ -95,7 +95,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px ;
+  gap: 45px ;
   padding:10px 5px;
   border-radius:10px 5px;
   top: 0;
