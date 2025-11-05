@@ -23,6 +23,7 @@ ol {
   border-style:solid;
   border-color:red;
   color:red;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 body {
   background-image:url('https://codehs.com/uploads/ab600ceec771ed5a759d6d8918079c43' );
